@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #e8edf5;
+}
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #222;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.column {
+  background-color: white;
+  width: 250px;
+  min-height: 350px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.column h2 {
+  color: blue;
+}
+
+.task {
+  background-color: lightblue;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 7px 12px;
+  margin: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
